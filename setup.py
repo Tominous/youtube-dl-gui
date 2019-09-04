@@ -198,7 +198,7 @@ def linux_setup():
     data_files = []
     package_data = {}
 
-    # Add hicolor icons
+    # Add hicolour icons
     for path in glob.glob("youtube_dl_gui/data/icons/hicolor/*x*"):
         size = os.path.basename(path)
 
